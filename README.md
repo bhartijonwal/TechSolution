@@ -115,7 +115,7 @@ SELECT COUNT(*) FROM sales;
 - Some SQL statements need cleanup (missing semicolons / insert formatting).
 - A few aggregations can be improved for correct quarterly rollups.
 - Validation constraints (`NOT NULL`, `CHECK`) can be strengthened.
--
+
 --  Recommended Next Improvements
 1. Keep only one canonical SQL script (`sql/schema_and_analysis.sql`).
 2. Add strict constraints and consistent naming conventions.
@@ -135,15 +135,7 @@ SELECT COUNT(*) FROM sales;
 
 
 
-# TechSolution
-# TechSolution SQL Sales Analysis
 
-## Objective
-Build a simple retail sales database and run SQL queries to analyze product performance, category revenue, customer behavior, and employee-linked sales outcomes.
-
-## Project Overview
-This repository contains a SQL script that:
-- Creates core business tables:
 - `products`
   <img width="407" height="86" alt="image" src="https://github.com/user-attachments/assets/38dc9cca-fbd8-48e4-b313-5b41c1781571" />
 
@@ -160,18 +152,3 @@ This repository contains a SQL script that:
 - Applies basic schema updates
 - Runs reporting queries for common sales insights
 
-## Files
-- [SQL Analysis (Code)](https://github.com/bhartijonwal/TechSolution/blob/main/sql/SQL%20schema_and_analysis.sql) — complete schema, sample data, and analysis queries
-
-## How to Use
-1. Open your PostgreSQL-compatible SQL environment.
-2. Run [SQL Analysis (Code)](https://github.com/bhartijonwal/TechSolution/blob/main/sql/SQL%20schema_and_analysis.sql) from top to bottom.
-3. Review query outputs to understand sales trends and business metrics.
-
-## Sample Insights Covered
-- Top-selling products
-- Sales by category
-- Products sorted by price
-- Customers with no purchases
-- Quarterly sales summaries
-- Employee listing by grade

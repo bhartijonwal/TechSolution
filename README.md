@@ -128,27 +128,3 @@ SELECT COUNT(*) FROM sales;
 6. Add one advanced report (monthly trend, top 5 customers, repeat customer rate).
 
 
-
-
-
-
-
-
-
-
-- `products`
-  <img width="407" height="86" alt="image" src="https://github.com/user-attachments/assets/38dc9cca-fbd8-48e4-b313-5b41c1781571" />
-
-- `customers`
-- <img width="545" height="64" alt="image" src="https://github.com/user-attachments/assets/8f4fefe3-8c3e-4ba1-9267-dff2e36d6baa" />
-
-- `employees`
-- <img width="706" height="64" alt="image" src="https://github.com/user-attachments/assets/c1bf7d68-3dc4-4a8f-9bf7-f0e30019da77" />
-
-- `sales`
-  <img width="496" height="62" alt="image" src="https://github.com/user-attachments/assets/b2b828c9-f823-473d-9235-dd74f4f4e4ec" />
-
-- Inserts sample data into each table
-- Applies basic schema updates
-- Runs reporting queries for common sales insights
-

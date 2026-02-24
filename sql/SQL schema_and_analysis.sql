@@ -1,3 +1,4 @@
+-- DDL (create tables)
 create table products (productid int primary key,
                        productname varchar (200),
 					   category varchar(50),
@@ -26,6 +27,8 @@ create table sales (saleid int primary key,
 				   foreign key (productid) references products(productid),
 				   foreign key (customerid) references customers(customerid),
 				   foreign key (employeeid) references employees(employeeid));
+
+-- DML (insert)
 
 insert into products(productid, productname, category, price)
 values (1,'Laptop','Electronic',1200.00),
@@ -81,6 +84,7 @@ select * from sales
 alter table customers
 alter column phone type varchar(9);
 
+-- Analysis queries
 
 --1. Top selling products
 select productname, sum(quantity) as total_sold

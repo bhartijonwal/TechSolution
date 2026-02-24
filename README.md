@@ -12,11 +12,11 @@ This repository contains a SQL script that:
 - Runs reporting queries for common sales insights
 
 ## Files
-- `SQL Script.sql` — complete schema, sample data, and analysis queries
+- [SQL Analysis (Code)](https://github.com/bhartijonwal/TechSolution/blob/main/Tech%20Solution%20Script.docx) — complete schema, sample data, and analysis queries
 
 ## How to Use
 1. Open your PostgreSQL-compatible SQL environment.
-2. Run `SQL Script.sql` from top to bottom.
+2. Run [SQL Analysis (Code)](https://github.com/bhartijonwal/TechSolution/blob/main/Tech%20Solution%20Script.docx) from top to bottom.
 3. Review query outputs to understand sales trends and business metrics.
 
 ## Sample Insights Covered

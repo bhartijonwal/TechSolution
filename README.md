@@ -8,8 +8,10 @@ A beginner-friendly **SQL portfolio project** that models a small retail busines
 -- Project Overview
 This repository contains a SQL script that:
 - Creates core business tables:
+- 
 - `products`
 <img width="407" height="86" alt="image" src="https://github.com/user-attachments/assets/38dc9cca-fbd8-48e4-b313-5b41c1781571" />
+
 -- Project Goal
 Build a lightweight PostgreSQL dataset and run practical business queries to answer questions such as:
 - Which products are selling the most?
@@ -38,6 +40,7 @@ Build a lightweight PostgreSQL dataset and run practical business queries to ans
 
 - `sales`
 <img width="496" height="62" alt="image" src="https://github.com/user-attachments/assets/b2b828c9-f823-473d-9235-dd74f4f4e4ec" />
+
 -What the SQL Script Covers
 The main SQL script includes:
 1. DD – table creation for:
@@ -118,6 +121,9 @@ SELECT COUNT(*) FROM sales;
 4. Add indexes on high-use columns (`sales.productid`, `sales.customerid`, `sales.saledate`).
 5. Add output screenshots/charts in a new `output/` folder.
 6. Add one advanced report (monthly trend, top 5 customers, repeat customer rate).
+
+
+
 
 
 

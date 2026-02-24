@@ -8,9 +8,10 @@ A beginner-friendly **SQL portfolio project** that models a small retail busines
 -- Project Overview
 This repository contains a SQL script that:
 - Creates core business tables:
-- 
+
 - `products`
 <img width="407" height="86" alt="image" src="https://github.com/user-attachments/assets/38dc9cca-fbd8-48e4-b313-5b41c1781571" />
+
 
 -- Project Goal
 Build a lightweight PostgreSQL dataset and run practical business queries to answer questions such as:
@@ -19,6 +20,7 @@ Build a lightweight PostgreSQL dataset and run practical business queries to ans
 - Which customers have not purchased yet?
 - How does sales performance look quarter by quarter?
 
+
 - `customers`
 - <img width="545" height="64" alt="image" src="https://github.com/user-attachments/assets/8f4fefe3-8c3e-4ba1-9267-dff2e36d6baa" />
 -- Tech Stack
@@ -26,8 +28,10 @@ Build a lightweight PostgreSQL dataset and run practical business queries to ans
 - **Language:** SQL
 - **Project Type:** Data Analytics / SQL Reporting
 
+
 - `employees`
 - <img width="706" height="64" alt="image" src="https://github.com/user-attachments/assets/c1bf7d68-3dc4-4a8f-9bf7-f0e30019da77" />
+
 -- Repository Structure
 ```text
 .
@@ -40,6 +44,7 @@ Build a lightweight PostgreSQL dataset and run practical business queries to ans
 
 - `sales`
 <img width="496" height="62" alt="image" src="https://github.com/user-attachments/assets/b2b828c9-f823-473d-9235-dd74f4f4e4ec" />
+
 
 -What the SQL Script Covers
 The main SQL script includes:

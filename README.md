@@ -86,7 +86,8 @@ psql -U <your_user> -d techsolution -f sql/schema_and_analysis.sql
 - Top-selling products
 - Sales by category
 - Products sorted by price
--- 3) Validate tables were created
+-Validate tables were created
+
 ```sql
 \dt
 SELECT COUNT(*) FROM products;

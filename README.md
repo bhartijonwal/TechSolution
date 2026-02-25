@@ -98,11 +98,23 @@ SELECT COUNT(*) FROM sales;
 
 -- Sample Insights Included
 - Top-selling products by quantity
+  <img width="210" height="143" alt="image" src="https://github.com/user-attachments/assets/413d1127-4158-48f6-9c87-d2d99bd94106" />
+
 - Revenue by category
+  <img width="212" height="122" alt="image" src="https://github.com/user-attachments/assets/c8b74e00-7c1f-4081-9c56-ac2742a95ccf" />
+
 - Product ranking by price
+  <img width="338" height="124" alt="image" src="https://github.com/user-attachments/assets/9f6b6380-5b37-4fde-b3ac-ca49e8e5b438" />
+
 - Customers with no purchases
+  <img width="398" height="65" alt="image" src="https://github.com/user-attachments/assets/1edd3245-5a1f-48f8-a353-ae901f202382" />
+
 - Quarterly sales summaries
+  <img width="196" height="121" alt="image" src="https://github.com/user-attachments/assets/5e6a8a46-97cb-4fa0-9ca8-10f0e8f01088" />
+
 - Employee listing by grade
+  <img width="363" height="104" alt="image" src="https://github.com/user-attachments/assets/3f06e69e-5dd2-4142-b618-2c6b5750b656" />
+
 
 -- Portfolio Highlights You Can Mention
 - Designed a normalized mini retail schema with foreign keys.

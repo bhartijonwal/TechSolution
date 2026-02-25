@@ -11,6 +11,7 @@ This repository contains a SQL script that:
 - Creates core business tables:
 
 - `products`
+- 
    <img width="407" height="86" alt="image" src="https://github.com/user-attachments/assets/38dc9cca-fbd8-48e4-b313-5b41c1781571" />
 
 

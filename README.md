@@ -2,6 +2,7 @@
 # TechSolution SQL Sales Analysis
 
 -- Objective
+
 Build a simple retail sales database and run SQL queries to analyze product performance, category revenue, customer behavior, and employee-linked sales outcomes.
 A beginner-friendly **SQL portfolio project** that models a small retail business and analyzes sales performance across products, categories, customers, and employees.
 
@@ -10,10 +11,11 @@ This repository contains a SQL script that:
 - Creates core business tables:
 
 - `products`
-<img width="407" height="86" alt="image" src="https://github.com/user-attachments/assets/38dc9cca-fbd8-48e4-b313-5b41c1781571" />
+   <img width="407" height="86" alt="image" src="https://github.com/user-attachments/assets/38dc9cca-fbd8-48e4-b313-5b41c1781571" />
 
 
 -- Project Goal
+
 Build a lightweight PostgreSQL dataset and run practical business queries to answer questions such as:
 - Which products are selling the most?
 - Which categories generate the most revenue?
@@ -43,7 +45,7 @@ Build a lightweight PostgreSQL dataset and run practical business queries to ans
 ```
 
 - `sales`
-<img width="496" height="62" alt="image" src="https://github.com/user-attachments/assets/b2b828c9-f823-473d-9235-dd74f4f4e4ec" />
+   <img width="496" height="62" alt="image" src="https://github.com/user-attachments/assets/b2b828c9-f823-473d-9235-dd74f4f4e4ec" />
 
 
 -What the SQL Script Covers
@@ -59,6 +61,7 @@ The main SQL script includes:
 - Inserts sample data into each table
 - Applies basic schema updates
 - Runs reporting queries for common sales insights
+
 -- Data Model Overview
 - `products` stores item-level catalog and price.
 - `customers` stores buyer identity and contact details.
@@ -97,22 +100,34 @@ SELECT COUNT(*) FROM sales;
 ```
 
 -- Sample Insights Included
+
 - Top-selling products by quantity
+
   <img width="210" height="143" alt="image" src="https://github.com/user-attachments/assets/413d1127-4158-48f6-9c87-d2d99bd94106" />
 
+
 - Revenue by category
+
   <img width="212" height="122" alt="image" src="https://github.com/user-attachments/assets/c8b74e00-7c1f-4081-9c56-ac2742a95ccf" />
 
+
 - Product ranking by price
+
   <img width="338" height="124" alt="image" src="https://github.com/user-attachments/assets/9f6b6380-5b37-4fde-b3ac-ca49e8e5b438" />
 
+
 - Customers with no purchases
+
   <img width="398" height="65" alt="image" src="https://github.com/user-attachments/assets/1edd3245-5a1f-48f8-a353-ae901f202382" />
 
+
 - Quarterly sales summaries
+
   <img width="196" height="121" alt="image" src="https://github.com/user-attachments/assets/5e6a8a46-97cb-4fa0-9ca8-10f0e8f01088" />
 
+
 - Employee listing by grade
+  
   <img width="363" height="104" alt="image" src="https://github.com/user-attachments/assets/3f06e69e-5dd2-4142-b618-2c6b5750b656" />
 
 
@@ -124,20 +139,5 @@ SELECT COUNT(*) FROM sales;
 -- Known Gaps (Current Version)
 > These are normal for a learning project and good to improve next.
 
-- Duplicate SQL file exists under `sql/`.
-- Some SQL statements need cleanup (missing semicolons / insert formatting).
-- A few aggregations can be improved for correct quarterly rollups.
-- Validation constraints (`NOT NULL`, `CHECK`) can be strengthened.
-
---  Recommended Next Improvements
-1. Keep only one canonical SQL script (`sql/schema_and_analysis.sql`).
-2. Add strict constraints and consistent naming conventions.
-3. Split into modular scripts:
-   - `01_schema.sql`
-   - `02_seed.sql`
-   - `03_analysis.sql`
-4. Add indexes on high-use columns (`sales.productid`, `sales.customerid`, `sales.saledate`).
-5. Add output screenshots/charts in a new `output/` folder.
-6. Add one advanced report (monthly trend, top 5 customers, repeat customer rate).
 
 

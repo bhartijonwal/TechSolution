@@ -66,7 +66,7 @@ The main SQL script includes:
 - `sales` is the fact table linking product, customer, employee, date, quantity, and amount.
 
 -- Files
-- [SQL Analysis (Code)](https://github.com/bhartijonwal/TechSolution/blob/main/sql/SQL%20schema_and_analysis.sql) — complete schema, sample data, and analysis queries
+- [SQL Analysis (Code)](https://github.com/bhartijonwal/TechSolution/blob/main/SQL%20schema_and_analysis.sql) — complete schema, sample data, and analysis queries
 -- How to Run (Local PostgreSQL)
 -- 1) Create a database
 ```sql
@@ -75,7 +75,7 @@ CREATE DATABASE techsolution;
 
 -- How to Use
 1. Open your PostgreSQL-compatible SQL environment.
-2. Run [SQL Analysis (Code)](https://github.com/bhartijonwal/TechSolution/blob/main/sql/SQL%20schema_and_analysis.sql) from top to bottom.
+2. Run [SQL Analysis (Code)](https://github.com/bhartijonwal/TechSolution/blob/main/SQL%20schema_and_analysis.sql) from top to bottom.
 3. Review query outputs to understand sales trends and business metrics.
 -- 2) Run script
 ```bash
